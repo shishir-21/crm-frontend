@@ -52,7 +52,6 @@ export const LoginForm = ({handleOnSubmit,handleOnChange, formSwitcher,email,pas
 LoginForm.propTypes = {
     handleOnChange: PropTypes.func.isRequired,
     handleOnSubmit: PropTypes.func.isRequired,
-    handleOnResetSubmit: PropTypes.func.isRequired,
     formSwitcher: PropTypes.func.isRequired,
     email: PropTypes.string.isRequired, 
     pass: PropTypes.string.isRequired,
